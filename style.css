@@ -1,0 +1,516 @@
+* {
+    margin:0px;
+    padding:0px;
+    text-align:justify; 
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style-type:none;
+    font-family:Arial, Helvetica, sans-serif;
+    transition:0.2s;
+    transition-duration:0.2s;
+    transition-delay:0.1s;
+    transition-timing-function:ease-in-out;
+    font-weight:lighter;    
+}
+
+body {
+    background-color:rgb(45, 58, 70);  
+    height:2700px;    
+}
+
+h1 {
+    color:grey;
+}
+
+header#cabeçalho-001 {
+    border:2px solid rgb(2, 2, 18);
+    background-color:rgb(2, 2, 18);
+    border-radius:7px;
+    height:47px;
+    width:1071px;
+    margin:auto;   
+    position:sticky;            
+    top:0;      
+   
+}
+
+/*{
+    border:2px solid rgb(66, 75, 84);
+    background-color:rgb(66, 75, 84);
+    padding:3px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+    height:77px;
+    text-align:center;  
+    margin-bottom:177px;
+}*/
+
+header#cabeçalho-001 h1, h2, h3 ,h4, p, a, abbr {
+    color:white;
+    margin-left:11px;
+    margin-right:11px;
+}
+
+ul#list-one li{
+    display:inline-block;
+    color:white;
+    font-weight:lighter;  
+    margin:7px 75px 2px 75px;
+}
+
+abbr#nome:hover {
+    color:red;
+    text-decoration:underline;    
+}
+
+abbr#escola:hover {
+    color:red;
+    text-decoration:underline;    
+}
+
+div#containner {
+    display:grid;
+    height:77px;  
+    grid-template-areas: 
+    'box1 box2 box3 box4'
+    'box5 box6 box7 box8'  
+    'box9 box10 box11 box12'
+    'box13 box14 box15 box16'
+    ;
+}
+
+.box {       
+    background-color:rgb(12, 16, 19);
+    padding:17px;        
+    border-radius:7px;  
+    width:310px;
+    height:300px; 
+    text-align:center;   
+    font-size:15px;
+}
+
+.box h1, h2, p{    
+    text-align:center;       
+}
+
+div#box1 {
+    grid-area:box1; 
+    margin:10px;
+    height:90px;
+}
+
+div#box2 {
+    grid-area:box2; 
+    margin:10px;
+    height:90px;
+}
+
+div#box3 {
+    grid-area:box3; 
+    margin:10px;
+    height:90px;
+}
+
+div#box4 {
+    grid-area:box4; 
+    margin:10px;
+    height:90px;
+}
+
+div#box5 {
+    grid-area:box5; 
+    margin:10px;    
+    height:220px;
+}
+
+div#box6 {
+    grid-area:box6; 
+    margin:10px;
+    height:220px;
+    color:grey;
+}
+
+div#box7 {
+    grid-area:box7; 
+    margin:10px;
+    height:220px;
+}
+
+div#box8 {
+    grid-area:box8; 
+    margin:10px;
+    height:220px;
+}
+
+div#box9 {
+    grid-area:box9; 
+    margin:10px;
+    height:220px;
+}
+
+div#box10 {
+    grid-area:box10; 
+    margin:10px;
+    height:220px;
+}
+
+div#box11 {
+    grid-area:box11; 
+    margin:10px;
+    height:220px;
+}
+
+
+div#box12 {
+    grid-area:box12; 
+    margin:10px;
+    height:220px;
+}
+
+div#box13 {
+    grid-area:box13; 
+    margin:10px; 
+    height:220px;
+}
+
+div#box14 {
+    grid-area:box14; 
+    margin:10px;
+    height:220px;
+}
+
+div#box15 {
+    grid-area:box15; 
+    margin:10px;
+    height:220px;
+}
+
+div#box16 {
+    grid-area:box16; 
+    margin:10px;
+    height:220px;
+}
+
+div#box1 h1, h2, h3, p {
+    color:gray;
+}
+
+div#box2 h1, h2, h3, p {
+    color:gray;
+}
+
+h1#titulo-5 {
+    font-size:17px;
+    font-weight:900;
+}
+
+p#p5 {
+    margin-top:70px;
+}
+
+p#p9 {
+    margin-top:70px;
+}
+
+p#p13 {
+    margin-top:70px;
+}
+
+.boxs {
+    background-color:rgb(12, 16, 19);
+    padding:17px;        
+    border-radius:7px;  
+    width:310px;
+    height:300px; 
+    text-align:center;   
+    font-size:15px;
+}
+
+main#containner2 {
+    display:grid;
+    height:77px;  
+    grid-template-areas: 
+    'element1 element2 element3'
+    'element7 element8 element9'      
+    'element4 element5 element6'
+    'element10 element11 element12'
+    ;
+}
+
+div#caixa1 {
+    grid-area:element1; 
+    margin:10px;
+    height:90px;    
+    width:400px;
+}
+
+div#caixa2 {
+    grid-area:element2; 
+    margin:10px;
+    height:90px;
+    width:400px;
+}
+
+
+div#caixa3 {
+    grid-area:element3; 
+    margin:10px;
+    height:90px;
+    width:400px;
+}
+
+
+div#caixa4 {
+    grid-area:element4; 
+    margin:10px;
+    height:90px;
+    width:400px;    
+}
+
+div#caixa5 {
+    grid-area:element5; 
+    margin:10px;
+    height:90px;
+    width:400px;
+}
+
+div#caixa6 {
+    grid-area:element6; 
+    margin:10px;
+    height:90px;
+    width:400px;
+}
+
+div#caixa7 {
+    grid-area:element7; 
+    margin:10px;
+    padding-top:150px;
+    height:300px;
+    width:400px;
+}
+
+div#caixa8 {
+    grid-area:element8; 
+    margin:10px;
+    padding-top:150px;
+    height:300px;
+    width:400px;
+}
+
+div#caixa9 {
+    grid-area:element9; 
+    margin:10px;
+    padding-top:150px;
+    height:300px;
+    width:400px;
+}
+
+div#caixa10 {
+    grid-area:element10; 
+    margin:10px;
+    padding-top:150px;
+    height:300px;
+    width:400px;
+}
+
+div#caixa11 {
+    grid-area:element11; 
+    margin:10px;
+    padding-top:150px;
+    height:300px;
+    width:400px;
+}
+
+div#caixa12 {
+    grid-area:element12; 
+    margin:10px;
+    padding-top:150px;
+    height:300px;
+    width:400px;    
+}
+
+.tittle-boxs {
+    font-size:20px;
+}
+
+
+
+
+/*.stylefont {
+    
+}*/
+
+/*Animation*/
+
+/*
+div#box1:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);    
+}
+
+div#box2:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);    
+}
+
+div#box3:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);    
+}
+
+div#box4:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);    
+}
+
+div#box5:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22); 
+    text-decoration:underline;
+    text-decoration-color:white;   
+}
+
+div#box6:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);    
+    text-decoration:underline;
+    text-decoration-color:white;
+}
+
+div#box7:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22); 
+    text-decoration:underline;
+    text-decoration-color:white;   
+}
+
+div#box8:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);    
+    text-decoration:underline;
+    text-decoration-color:white;
+}
+
+div#box9:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);    
+    text-decoration:underline;
+    text-decoration-color:white;
+}
+
+div#box10:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);    
+    text-decoration:underline;
+    text-decoration-color:white;
+}
+
+div#box11:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);    
+    text-decoration:underline;
+    text-decoration-color:white;
+}
+
+div#box12:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);    
+    text-decoration:underline;
+    text-decoration-color:white;
+}
+
+div#box13:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);    
+    text-decoration:underline;
+    text-decoration-color:white;
+}
+
+div#box14:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);  
+    text-decoration:underline;
+    text-decoration-color:white;  
+}
+
+div#box15:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);   
+    text-decoration:underline;
+    text-decoration-color:white; 
+}
+
+div#box16:hover {
+    transform:scale(1.2);
+    background-color:rgb(9, 16, 22);    
+    text-decoration:underline;
+    text-decoration-color:white;
+}
+
+
+div#box1:hover h1, h2, h3, p {
+    color:white;
+}
+
+div#box2:hover h1, h2, h3, p {
+    color:white;
+}
+
+
+div#box3:hover h1, h2, h3, p {
+    color:white;
+}
+
+
+div#box4:hover h1, h2, h3, p {
+    color:white;
+}
+
+
+div#box5:hover h1, h2, h3, p {
+    color:white;
+}
+
+div#box6:hover h1, h2, h3, p {
+    color:white;
+}
+
+div#box7:hover h1, h2, h3, p {
+    color:white;
+}
+
+div#box8:hover h1, h2, h3, p {
+    color:white;
+}
+
+div#box9:hover h1, h2, h3, p {
+    color:white;
+}
+
+div#box10:hover h1, h2, h3, p {
+    color:white;
+}
+
+div#box11:hover h1, h2, h3, p {
+    color:white;
+}
+
+div#box12:hover h1, h2, h3, p {
+    color:white;
+}
+
+div#box13:hover h1, h2, h3, p {
+    color:white;
+}
+
+div#box14:hover h1, h2, h3, p {
+    color:white;
+}
+
+div#box15:hover h1, h2, h3, p {
+    color:white;
+}
+
+div#box16:hover h1, h2, h3, p {
+    color:white;
+}*/
